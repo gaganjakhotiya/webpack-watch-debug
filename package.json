@@ -1,0 +1,14 @@
+{
+    "name": "webpapck-debug",
+    "version": "1.0.0",
+    "description": "Webpack Watch Issue",
+    "main": "index.js",
+    "author": "Gagan",
+    "license": "MIT",
+    "dependencies": {
+        "webpack": "^3.8.1"
+    },
+    "scripts": {
+        "start": "yarn && node ./node_modules/webpack/bin/webpack.js -w"
+    }
+}
